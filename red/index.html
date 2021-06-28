@@ -35,7 +35,7 @@
       <img src="red.png" />
     </div>
 
-    <button type="button" class="back next btn btn111 btn-outline-danger">
+    <button type="button" class="back next btn btn111 btn-outline-danger" >
       Next
     </button>
     <audio class="aured" src="red.mp3" autoplay="autoplay" loop="loop"></audio>
@@ -47,6 +47,7 @@
       document.querySelector(".imagin").addEventListener("click", function () {
         let audio = new Audio("red.mp3");
         audio.play();
+        document.querySelector(".next").style.visibility = "";
       });
 
       document.querySelector(".btn111").addEventListener("click", function () {
