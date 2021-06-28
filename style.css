@@ -1,0 +1,34 @@
+h1 {
+  background: -webkit-linear-gradient(
+    90deg,
+    #ca00cd,
+    #1804ff,
+    #ebe359,
+    #ff0066,
+    #ff0096
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  align-content: center;
+  position: fixed;
+  margin-top: 5%;
+  padding-top: 1rem;
+  margin-left: 42%;
+  margin-right: 45%;
+  font-family: "Roboto", sans-serif;
+}
+
+.btn {
+  margin: 10px;
+}
+
+.button {
+  position: fixed;
+  margin: 0;
+  top: 45%;
+  left: 31%;
+}
+.btn1:hover {
+  border: black;
+  background-color: grey;
+}
